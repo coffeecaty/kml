@@ -17,7 +17,5 @@ deploy_key_rsa
 
 __pycache__/
 config.py
-date.txt
 .idea/
 ex/
-ENL_tianjin_HQ.py
