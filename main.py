@@ -109,9 +109,9 @@ def mute(bot,update):
 def help(bot,update):
     plog(update)
     text='''直接输入文字即可记录日记
-    /list 时间，显示某天的全部记录，时间格式为8位，如20180630，不填时间默认显示昨天的记录
-    /mute 屏蔽/开启记录日记后的recording反馈，默认为开启状态
-    有任何意见可联系主人 @coffeecaty 但他不会理你们的喵哈哈哈哈'''
+/list 时间，显示某天的全部记录，时间格式为8位，如20180630，不填时间默认显示昨天的记录
+/mute 屏蔽/开启记录日记后的recording反馈，默认为开启状态
+有任何意见可联系主人 @coffeecaty 但他不会理你们的喵哈哈哈哈'''
     bot.sendMessage(update.message.from_user.id,
                     text=text)
 
